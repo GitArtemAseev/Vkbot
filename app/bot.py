@@ -13,7 +13,7 @@ class VkBot:
 
     def set_params(self,longpoll_params: dict = None, group_edit_params: dict = None, group_settings_params: dict = None):
         """
-        Устанавливает параметров бота
+        Устанавливает параметров бота.
         """
         self.longpoll_params = longpoll_params
         self.group_edit_params = group_edit_params

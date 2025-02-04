@@ -61,7 +61,7 @@ class LongPoll:
 
     async def listen(self):
         """
-        Начинает прослушивание событий
+        Начинает прослушивание событий.
         """
         await self.init_vk_settings(longpoll_params = self.bot.longpoll_params,
                                     group_edit_params = self.bot.group_edit_params,
